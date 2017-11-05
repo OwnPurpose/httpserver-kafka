@@ -16,6 +16,12 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 
+/**
+ * <p>
+ *  This is an Util class to handle both GET and POST request
+ * </p>
+ */
+
 public class HttpUtils {
 
 	CloseableHttpClient client = null;
