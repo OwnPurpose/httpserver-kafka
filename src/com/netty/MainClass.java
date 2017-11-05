@@ -2,6 +2,11 @@ package com.netty;
 
 import java.util.Scanner;
 
+/**
+ * <p>
+ *  This is Main class. It will start and stop the Server based on our input at runtime.
+ * </p>
+ */
 public class MainClass {
 
 	public static void main(String args[]) {
