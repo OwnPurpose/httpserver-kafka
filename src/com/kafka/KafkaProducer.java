@@ -8,6 +8,11 @@ import kafka.javaapi.producer.Producer;
 import kafka.producer.KeyedMessage;
 import kafka.producer.ProducerConfig;
 
+/**
+ * <p>
+ *  This is a Kafka Producer. This will send received Account data to specified Kafka Queue.
+ * </p>
+ */
 public class KafkaProducer {
 
 	public void send(Account account) {
