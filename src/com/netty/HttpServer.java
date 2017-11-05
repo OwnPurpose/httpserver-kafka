@@ -15,6 +15,11 @@ import io.netty.handler.codec.http.HttpRequestDecoder;
 import io.netty.handler.codec.http.HttpResponseEncoder;
 import io.netty.handler.stream.ChunkedWriteHandler;
 
+/**
+ * <p>
+ *  This is an HttpServer. This contains both Start and Stop methods.
+ * </p>
+ */
 public class HttpServer {
 
 	private int port;
