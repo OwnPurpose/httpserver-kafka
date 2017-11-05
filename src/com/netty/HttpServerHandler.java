@@ -28,7 +28,11 @@ import io.netty.handler.codec.http.multipart.DefaultHttpDataFactory;
 import io.netty.handler.codec.http.multipart.HttpPostRequestDecoder;
 import io.netty.handler.codec.http.multipart.InterfaceHttpData;
 
-
+/**
+ * <p>
+ *  This is an Handler class to handle each request.
+ * </p>
+ */
 public class HttpServerHandler extends ChannelInboundHandlerAdapter{
 
 	private String jsonParamString= null;
@@ -89,6 +93,12 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
 	    catch(Exception e) { e.printStackTrace(); }
 	}
 
+	/**
+ 	* <p>
+	*  @return JSONObject
+ 	*  This method will create JSONObject object for both GET and POST from queryParam and postBody respectively.
+ 	* </p>
+ 	*/
 	private JSONObject getParametersHandler(HttpRequest request) throws IOException {
 	   
 		Map<String, Object> map = new HashMap<String, Object>();
