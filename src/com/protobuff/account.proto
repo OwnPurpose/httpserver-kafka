@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package tutorial;
+
+option java_package = "com.protobuff";
+option java_outer_classname = "AccountBook";
+
+message Account {
+  required string acctNumber = 1;
+  required string acctName = 2;
+  required string acctHolderName = 3;
+}
