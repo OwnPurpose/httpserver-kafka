@@ -4,7 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
+/**
+ * <p>
+ *  This is an HttpClient. It will get Account data from user and call HttpUtils methods for client request.
+ *  We can sent N number of request if we want here.
+ * </p>
+ */
 public class HttpClient {
   
 	public static void main(String arga[]) throws Exception {
